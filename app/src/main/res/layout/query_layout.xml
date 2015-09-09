@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Enquiry"
+        android:id="@+id/txtQuery"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/txtQueryName"
+        android:layout_alignEnd="@+id/txtQueryName"
+        android:background="#2d2b2b"
+        android:textSize="17sp"
+        android:textColor="#efefef"
+        android:typeface="sans"
+        android:gravity="center_vertical" />
+
+    <TextView
+        style="@style/FontStyle"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView"
+        android:layout_marginTop="79dp"
+        android:text="Name:"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/txtQuery"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        style="@style/FontStyle"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Phone No."
+        android:id="@+id/textView2"
+        android:layout_alignTop="@+id/txtQueryPhNo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/txtQueryName"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignRight="@+id/btnSubmit"
+        android:layout_alignEnd="@+id/btnSubmit"
+        android:layout_alignLeft="@+id/txtQueryPhNo"
+        android:layout_alignStart="@+id/txtQueryPhNo"
+        android:width="200dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/txtQueryInfo"
+        android:text="Enter Query here..."
+        android:layout_below="@+id/txtQueryPhNo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="52dp"
+        android:layout_alignRight="@+id/txtQueryPhNo"
+        android:layout_alignEnd="@+id/txtQueryPhNo" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/txtQueryPhNo"
+        android:layout_below="@+id/txtQueryName"
+        android:layout_alignRight="@+id/btnSubmit"
+        android:layout_alignEnd="@+id/btnSubmit"
+        android:layout_alignLeft="@+id/btnSubmit"
+        android:layout_alignStart="@+id/btnSubmit" />
+
+    <Button
+        style="@style/FontStyle"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="Submit"
+        android:id="@+id/btnSubmit"
+        android:layout_below="@+id/txtQueryInfo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

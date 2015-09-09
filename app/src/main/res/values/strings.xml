@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Goyal International</string>
+
+    <string name="title_section1">Home</string>
+    <string name="title_section2">About Us</string>
+    <string name="title_section3">Our Products</string>
+    <string name="title_section4">Contact Us</string>
+    <string name="title_section5">Enquiry</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    
+    //expandable list view
+
+    <string-array name="product_titles">
+        <item>Carriage Bolts</item>
+        <item>Hex Bolts</item>
+        <item>Hex Nuts</item>
+        <item>Belt Bolts</item>
+        <item>Loom Spindle</item>
+        <item>Hot Forged Bolts</item>
+        <item>WeftGrates</item>
+        <item>Wire Spring</item>
+        <item>Lamp Rod 5/16 2N 2W</item>
+        <item>Cloth Roller Spring 0.250 x 9½ 2N 2W </item>
+        <item>T Bolts with HN</item>
+        <item>Dobby Bolt 5/8 x 5 O.A GI HN</item>
+    </string-array>
+
+    <string-array name="carriage_products1">
+        <item>Carriage Bolt 1/2"</item>
+        <item>Carriage Bolt 3/8</item>
+        <item>Carriage Bolt 7/16</item>
+   </string-array>
+
+    <string-array name="hexbolts_products2">
+        <item>All Sizes</item>
+    </string-array>
+
+    <string-array name="hexNuts_products3">
+        <item>All Sizes</item>
+    </string-array>
+
+    <string-array name="beltBolts_products4">
+        <item>All Sizes</item>
+    </string-array>
+
+    <string-array name="LS_products5">
+        <item>L.S. High Carbon temp. Peacock 3/8</item>
+        <item>L.S. MS DP GI R.NO. BRAND 3/8 (374)</item>
+        <item>L.S. MS DP Deer Brand 3/8  (365)</item>
+        <item>L.S. High Carbon GI CR. Green 3/8</item>
+        <item>L.S. MS CR HCGI  Brand RED END 3/8</item>
+        <item>L.S. MS CR HCDeer  3/8  (365)</item>
+        <item>L.S. MS DP Swan Brand 3/8</item>
+        <item>L.S. MS CR HCGI  RED 1/2 (490)</item>
+        <item>L.S. MS DP 9/16 (525) DEER Brand</item>
+        <item>L.S. MS DP 9/16 (550-555) F.Dia GI Brand</item>
+
+    </string-array>
+
+
+    <string-array name="Hot_Forged_products6">
+        <item>Eye Bolt GI Brand HN ½ x 7"to 8"</item>
+        <item>SS Bolt GI Brand HN 6X12mm</item>
+        <item>Picking Bolt GI Brand 7/8 HBN 8" </item>
+        <item>Picking Bolt GI Brand 7/8 HWN 8"</item>
+        <item>Picking Bolt AI Brand HBN 7/8 X 8"</item>
+        <item>Picking Bolt HWN  15/16x 8" GI BRAND</item>
+        <item>Picking Bolt GI BRAND 1 X 9 HWN</item>
+
+    </string-array>
+
+    <string-array name="Weftgrate_products7">
+        <item>Weft Grate BB CR L+ R 10G PEACOCK</item>
+        <item>Weft Grate BB CR L+ R 12G PEACOCK</item>
+        <item>Weft Grate BB 13G DP Deer Brand</item>
+        <item>Weft Grate BB 13G DP Deer WELDED</item>
+        <item>Weft Grate Neb BB DP Deer Brand</item>
+        <item>Weft Grate Cimmco longtail CR Peacock</item>
+        <item>Weft Fork riveted Blue Deer</item>
+        <item>Weft Fork Screw zinc Jones Type </item>
+        <item>Weft Grate JONES 10G DP DEER</item>
+        <item>Weft for Toyoda blue 10G</item>
+
+    </string-array>
+
+    <string-array name="Wirespring_products8">
+        <item>Wire Spring  SS Blue Temp. 5X1</item>
+        <item>Wire Spring  SS Blue Temp. 5X1 (0.920)</item>
+        <item>Wire Spring  HB White FD  5 x 1</item>
+        <item>Wire Spring  HB Blue FD 5X1</item>
+        <item>Wire Spring  HB U. Dia White 5 x 1</item>
+
+    </string-array>
+</resources>

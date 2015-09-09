@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="blueColor" >#1DCCBA</color>
+    <style name="BlueTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground" >@color/blueColor</item>
+    </style>
+    <style name="FontStyle" >
+
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">#2d2b2b</item>
+        <item name="android:textColor">#efefef</item>
+
+
+    </style>
+</resources>
